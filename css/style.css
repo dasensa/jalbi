@@ -348,6 +348,14 @@ a.card:hover {
   width: 100%;
 }
 
+/* Fotos de producto sobre fondo blanco: se muestran completas, sin recortar */
+.story-block img.story-photo-contain {
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid var(--color-line);
+  padding: 28px;
+}
+
 .story-text h3 {
   font-size: 1.4rem;
   margin: 0 0 12px;
